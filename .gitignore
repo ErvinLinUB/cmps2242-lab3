@@ -1,0 +1,43 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binaries
+go/bin/
+go/pkg/
+
+# Test binary
+*.test
+
+# Output of `go build`
+/cmd/api/api
+/cmd/api/api.exe
+
+# Dependency directories
+vendor/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go modules
+go.work
+go.work.sum
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
