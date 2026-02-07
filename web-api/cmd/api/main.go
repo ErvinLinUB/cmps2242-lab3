@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// Part 2: Web Application with Routes and Handlers
+
 // Task 2: Implement Required Routes
 
 // homeHandler handles GET / - returns "Welcome to the Shapes API"
